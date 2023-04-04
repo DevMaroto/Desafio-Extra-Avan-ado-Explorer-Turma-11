@@ -1,10 +1,42 @@
 * {
   padding: 0;
-  margin: 0:
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'JetBrains Mono', monospace;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Open Sans", sans-serif;
+  background: #2c2b3d;
+}
+
+#page {
+  padding: 71px 100px 23px;
+  margin: 0 auto 0;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 101px;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
