@@ -8,6 +8,8 @@ body {
   font-family: "JetBrains Mono", monospace;
   font-family: "Open Sans", sans-serif;
   background: #2c2b3d;
+  width: 1280px;
+  margin: 0 auto 0;
 }
 
 #page {
@@ -39,4 +41,25 @@ a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 157px;
+}
+
+h1 {
+  margin-bottom: 59px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#line {
+  width: 568px;
+  border: 1px solid #00bfa6;
+  margin: 0 auto 30px;
+}
+
+.padlock {
+  position: fixed;
+  bottom: 190px;
+  left: 295px;
 }
