@@ -65,10 +65,11 @@ h1 {
 
 span {
   color: #00bfa6;
+  font-weight: 700;
 }
 
 p {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   color: #c2c2c2;
@@ -82,6 +83,10 @@ p {
   width: 568px;
   border: 1px solid #00bfa6;
   margin: 0 auto 30px;
+}
+
+.footer-msg {
+  color: #ffffff;
 }
 
 .padlock {
